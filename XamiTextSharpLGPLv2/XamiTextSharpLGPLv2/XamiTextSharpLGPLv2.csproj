@@ -1,0 +1,64 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.0</Version>
+    <Description>This project is updating to net standard 2.0 the plugin Xam.iTextSharpLGPL
+which is packaging the latest version of iTextSharp licensed with LGPL/MPL into a Xamarin ios/android plugin.</Description>
+    <PackageProjectUrl>https://github.com/Sim-github/Xam.iTextSharpLGPLv2</PackageProjectUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Courier-Bold.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Courier-Bold.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Courier.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Courier.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Courier-BoldOblique.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Courier-BoldOblique.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Courier-Oblique.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Courier-Oblique.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\glyphlist.txt">
+      <LogicalName>iTextSharp.text.pdf.fonts.glyphlist.txt</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Helvetica.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Helvetica.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Helvetica-Bold.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Helvetica-Bold.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Helvetica-BoldOblique.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Helvetica-BoldOblique.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Helvetica-Oblique.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Helvetica-Oblique.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Symbol.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Symbol.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Times-Bold.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Times-Bold.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Times-BoldItalic.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Times-BoldItalic.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Times-Italic.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Times-Italic.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Times-Roman.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Times-Roman.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\ZapfDingbats.afm" />
+  </ItemGroup>
+</Project>

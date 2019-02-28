@@ -9,6 +9,10 @@
     <Description>This project is updating to net standard 2.0 the plugin Xam.iTextSharpLGPL
 which is packaging the latest version of iTextSharp licensed with LGPL/MPL into a Xamarin ios/android plugin.</Description>
     <PackageProjectUrl>https://github.com/Sim-github/Xam.iTextSharpLGPLv2</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/Sim-github/Xam.iTextSharpLGPLv2</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/Sim-github/Xam.iTextSharpLGPLv2</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -60,5 +64,9 @@ which is packaging the latest version of iTextSharp licensed with LGPL/MPL into 
       <LogicalName>iTextSharp.text.pdf.fonts.Times-Roman.afm</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="iTextSharp\text\pdf\fonts\ZapfDingbats.afm" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
 </Project>

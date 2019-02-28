@@ -5,7 +5,7 @@ https://github.com/Sim-github/Xam.iTextSharpLGPLv2
 This project is updating to net standard 2.0 the plugin Xam.iTextSharpLGPL: https://bitbucket.org/smarongiu/xam.itextsharplgpl
 which is packaging the latest version of iTextSharp licensed with LGPL/MPL into a Xamarin ios/android plugin.
 
-Nuget package available here https://www.nuget.org/packages/Xam.iTextSharpLGPL/0.1.0
+Nuget package available here https://www.nuget.org/packages/XamiTextSharpLGPLv2/1.0.0
 
 Licensing
 =========
